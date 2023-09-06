@@ -2,89 +2,140 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <!--google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <!--fontawesome-->
-    <script src="https://kit.fontawesome.com/7c1fac282e.js" crossorigin="anonymous"></script>
-    <link href="/website/css/uicons-solid-rounded.css" rel="stylesheet">
-    <title>The Dugout</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lora:ital@1&family=Rubik:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/7c1fac282e.js" crossorigin="anonymous"></script>
+  <link href="/website/css/uicons-solid-rounded.css" rel="stylesheet">
+  <title>The Dugout</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <!--preloader-->
-    <script>
+  <!--preloader-->
+  <script>
 
-        var loader = document.getElementById("preloader");
+    var loader = document.getElementById("preloader");
 
-        window.addEventListener("load", function () {
-            loader.style.display = "none";
-        })
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
 
-    </script>
+  </script>
 
-    <!--header-->
-    <header>
-          <div class="container">
-            <header class="border-bottom lh-1 py-3">
-              <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-10 brand-name text-center">
-                    <a href="index.html">THE DUGOUT</a>
-                </div>
-                <div class="col-2 profile text-right">
-                    <div class="dropdown">
-                        <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <a href="#"><img class="prof_pic" src="Images/profile.jpg" alt="Profile"></a> 
-                        </button>
-                        <div class="dropdown-menu p-4 text-body-secondary" style="width: 257px;">
-                            <div class="card" style="width: 13rem;">
-                                <img src="Images/profile.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Ayushman Chaudhary</h5>
-                                  <hr>
-                                  <p class="card-text">Writer & Founder of The Dugout</p>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
+  <!--header-->
+  <header>
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-10 brand-name text-center">
+            <a href="index.html">THE DUGOUT</a>
+          </div>
+          <div class="col-2 profile text-right">
+            <div class="dropdown">
+              <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#"><img class="prof_pic" src="Images/profile.jpg" alt="Profile"></a>
+              </button>
+              <div class="dropdown-menu p-4 text-body-secondary" style="width: 257px;">
+                <div class="card" style="width: 13rem;">
+                  <img src="Images/profile.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ayushman Chaudhary</h5>
+                    <hr>
+                    <p class="card-text">Writer & Founder of The Dugout</p>
+                  </div>
                 </div>
               </div>
-            </header>
-        
-            <div class="nav-scroller py-1 mb-3 border-bottom">
-              <nav class="nav nav-underline justify-content-between">
-                <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
-                <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
-              </nav>
             </div>
           </div>
-          <main class="container">
-            <div class="cover-head">
-              <h1 class="cric_title">Cricket News and Artiles</h1>
-            </div>
-            </main>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis active" href="#">All</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Asia Cup 2023</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Workd Cup 2023</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">IPL 2024</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">News</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Records</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Players</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">History</a>
+        </nav>
+      </div>
+    </div>
+    <main class="container">
+      <div class="cover-head">
+        <h1 class="cric_title">Get The Best Knowledge <br> About Cricket</h1>
+        <p>Get all the news articles about all format<br> of  matches so you always aware about recent <br> in criclet by Dugout...</p>
+      </div>
+
+      
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
+            <h3 class="mb-0">Featured post</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
 </body>
 
 </html>

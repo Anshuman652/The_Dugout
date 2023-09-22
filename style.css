@@ -80,7 +80,6 @@ main .cover-head p {
 }
 
 /*Depart Posts*/
-/*News Section*/
 .depart {
     border: solid 1px #ced4da;
     background-color: #fff;
@@ -97,6 +96,8 @@ main .cover-head p {
     margin-top: 5px;
     text-decoration: underline;
 }
+/*News Section*/
+
 
 .news-link a {
     text-decoration: none;
@@ -139,38 +140,13 @@ main .cover-head p {
 }
 
 /*Social Media Section*/
-.social-posts {
-    text-align: center;
+.social-posts{
+    border: 0px solid black;
+    overflow: hidden;
+    padding-left: 2.6em;
 }
-
-.soci-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    border-radius: 0.5em;
-    margin-bottom: 0;
-}
-
-.social-posts .id {
-    text-decoration: none;
-    color: #000;
-    font-size: 10px;
-}
-
-.id .id-img {
-    width: 15px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.social-posts p {
-    color: gray;
-    font-size: 15px;
-}
-
 /*Stories*/
-.stories{
+.stories {
     border: 1px solid #ced4da;
     border-radius: 0.6em;
     background-color: #fff;
@@ -178,15 +154,18 @@ main .cover-head p {
     padding: 10px;
     padding-left: 20px;
 }
-.stories h6{
+
+.stories h6 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5em;
     text-decoration: underline;
 }
-.story-part .story-no{
+
+.story-part .story-no {
     display: inline-block;
     margin-left: 10px;
 }
+
 .story-no {
     position: relative;
     border: 0px solid black;
@@ -200,30 +179,33 @@ main .cover-head p {
     padding: 8px;
 
 }
-.story-no p{
+
+.story-no p {
     position: absolute;
     bottom: 0;
     color: #fff;
     font-size: 14px;
-    
+
 }
+/*Footer*/
 footer {
     border: #605c5c solid 1px;
     border-radius: 20px 20px 0 0;
-    height: 50px;
+    height: 81px;
     text-align: center;
     background-color: #605c5c;
     bottom: 0;
     margin-top: 50px;
 }
-
 footer img {
-    height: 49px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 footer a {
     text-decoration: none;
     color: #d4d4d4;
+    font-size: 25px;
     font-family: 'Bitter', serif;
     background-color: #605c5c;
 }

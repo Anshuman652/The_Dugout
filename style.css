@@ -186,6 +186,15 @@ main .cover-head p {
     font-size: 14px;
 
 }
+/*Recent Posts*/
+.extra-post{
+    border: 1px solid #ced4da;
+    border-radius: 0.6em;
+    background-color: #fff;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+}
 /*Footer*/
 footer {
     border: #605c5c solid 1px;

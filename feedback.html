@@ -17,7 +17,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@500&family=Courgette&family=Lora:ital@1&family=Poppins&family=Rubik:wght@500&family=Satisfy&display=swap"
         rel="stylesheet">
-    <title>About</title>
+    <title>Feedback</title>
     <style>
         /*Preloader*/
         #preloader {
@@ -78,38 +78,14 @@
         .header .active a {
             color: #8b0000;
         }
-
-        /*Main*/
+        /*Image*/
         .fir-img .img-fluid {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 1.4em;
             width: 25em;
+            margin-top: 1.4em;
         }
-
-        /*Sections*/
-        .about-sec,
-        .contact-sec{
-            border: 1px solid #ced4da;
-            background-color: #fff;
-            border-radius: 0.6em;
-            margin-top: 1em;
-            padding: 1em 2em 1em 2em;
-        }
-
-        .about-sec h6,
-        .contact-sec h6{
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.5em;
-            margin-top: 5px;
-            text-decoration: underline;
-        }
-
-        .crickever1 {
-            width: 100%;
-        }
-
         /*Footer*/
         footer {
             border: #605c5c solid 1px;
@@ -146,7 +122,6 @@
         window.addEventListener("load", function () {
             loader.style.display = "none";
         })
-
     </script>
     <div class="container">
         <header class="header">
@@ -155,45 +130,21 @@
             <li style="margin-right: 80px;" class="icon links"><a href="report.html">Report</a></li>
             <li class="icon links"><a href="#">Policies</a></li>
             <li class="icon links"><a href="#">Terms</a></li>
-            <li class="icon links"><a href="feedback.html">Feedback</a></li>
-            <li class="icon links"><a href="#contact">Contact</a></li>
-            <li class="icon links active"><a href="#about">About</a></li>
+            <li class="icon links active"><a href="#">Feedback</a></li>
+            <li class="icon links"><a href="About.html#contact">Contact</a></li>
+            <li class="icon links"><a href="About.html#about">About</a></li>
         </header>
-
         <div class="fir-img">
-            <img class="img-fluid" src="Images/stadium_s.png" alt="">
+            <img class="img-fluid" src="Images/feedback.png" alt="">
         </div>
-        <!--About-->
-        <div id="about" class="about-sec">
-            <div class="row">
-                <div class="col-8">
-                    <h6>About</h6>
-                    <p>Text...</p>
-                </div>
-                <div class="col-4">
-                    <img class="crickever1" src="Images/about.png" alt="">
-                </div>
-            </div>
+        <div>
+            <script type="text/javascript" src="https://form.jotform.com/jsform/232651908955062"></script>
+            <!--Footer-->
+            <footer>
+                <a href="index.html"><img src="Images/logo.jpg" alt=""></a>
+                <a href="index.html">THE DUGOUT</a>
+            </footer>
         </div>
-        <!--Contact-->
-        <div id="contact" class="contact-sec">
-            <div class="row">
-                <div class="col-4">
-                    <img class="crickever1" src="Images/contact.png" alt="">
-                </div>
-                <div class="col-8">
-                    <h6 class="text-end">Contact</h6>
-                    <p class="text-end">Text...</p>
-                </div>
-            </div>
-        </div>
-        
-        <!--Footer-->
-        <footer>
-            <a href="index.html"><img src="Images/logo.jpg" alt=""></a>
-            <a href="index.html">THE DUGOUT</a>
-          </footer>
-    </div>
 </body>
 
 </html>
